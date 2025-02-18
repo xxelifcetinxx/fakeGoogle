@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f2f2f2; /* Google arka plan rengine yakın bir renk */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    width: 272px; /* Google logo genişliği */
+    height: 92px; /* Google logo yüksekliği */
+    margin-bottom: 20px;
+}
+
+.search-bar {
+    display: flex;
+    flex-direction: column;
+    width: 580px; /* Arama çubuğu genişliği */
+}
+
+.search-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 24px; /* Arama çubuğu oval şekli */
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.search-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.search-button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: none;
+    background-color: #f2f2f2; /* Buton arka plan rengi */
+    border: 1px solid #f2f2f2; /* Buton çerçeve rengi */
+    color: #5f6368; /* Buton yazı rengi */
+    border-radius: 4px; /* Buton oval şekli */
+    cursor: pointer;
+}
+
+.search-button:hover {
+    border: 1px solid #dadce0; /* Buton hover çerçeve rengi */
+}
